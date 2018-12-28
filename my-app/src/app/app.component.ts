@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
 import {MenuItem} from 'primeng/api';                 //api
-import {SplitButtonModule} from 'primeng/splitbutton';
 
 @Component({
   selector: 'app-root',
