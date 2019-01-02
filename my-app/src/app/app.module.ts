@@ -7,7 +7,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import {Promise} from 'es6-promise';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {SplitButtonModule} from 'primeng/splitbutton';
-
+import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +17,8 @@ import {SplitButtonModule} from 'primeng/splitbutton';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    SplitButtonModule
+    SplitButtonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
